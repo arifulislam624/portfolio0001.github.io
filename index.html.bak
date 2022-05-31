@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <!-- font awesome apply -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet apply -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="uni-padding">
+            <div class="logo" id="pos"><a href=""><h2 class="for-h">A</h2></a></div>
+            <nav id="menu">
+                <i class="fas fa-times icon" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">My works</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fas fa-bars icon" onclick="openMenu()"></i>
+        </header>
+        <!-- header div end -->
+        <section id="hero" class="uni-padding">
+            <div class="content">
+                <div class="icon">
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-snapchat"></i>
+                    <i class="fab fa-internet-explorer"></i>
+                </div>
+                <h1 class="for-h">Im Muhammad Arif</h1>
+                <a href="" class="btn">Designer</a>
+            </div>
+
+            <a href="index.html"><span id="tab">&#8595;</span></a>
+        </section><!---hero div end-->
+
+        <!-- another section  of serveices -->
+
+        <section id="service" class="uni-padding">
+
+            <h1 class="for-h">My services</h1>
+
+            <div class="parent">
+
+                <div class="box">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Develop</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App Developing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Blogging</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <h3>Coding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+
+        </section><!--section div end-->
+
+        <!-- abot me section start -->
+
+        <section id="about" class="uni-padding">
+            <h1 class="for-h">About Me</h1>
+            <div class="row">
+                <div class="col2" id="hide">
+                    <img src="images/one.jpg" alt="">
+                </div>
+                <div class="col2" id="col2">
+                <a href="" class="btn">Hi There</a>
+                <p id="pera">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, atque eligendi unde sed accusamus recusandae aliquam tenetur ex corporis cupiditate!</p>
+            <div class="info">
+                <div class="one">
+                    <p>Name:</p>
+                    <p>Gmail:</p>
+                </div>
+                <div class="two">
+                    <p>Muhammad Arif</p>
+                    <p>arifhossain20@gmail.com</p>
+                </div>
+                <div class="three">
+                    <p>Phone:</p>
+                    <p>Twitter:</p>
+                </div>
+                <div class="four">
+                    <p>+880123456</p>
+                    <p>arifkhan@</p>
+                </div>
+            </div>
+
+                <a href="" class="btn1">Contact Me</a>
+                <a href="" class="btn2"><i class="fas fa-download" id="fa"></i> Download Cv</a>
+                </div>
+            </div>
+        </section><!---about me sec end-->
+
+
+        <!-- another section start -->
+
+        <section id="work" class="uni-padding">
+            <div class="box__1">
+                <h2>Lets Work together on your project</h2>
+                <a href="" class="btn1" id="btnn">Hire Me Now</a>
+            </div>
+        </section>
+
+
+        <!-- skill sections start -->
+        <section id="skill" class="uni-padding">
+            <h1 class="for-h">My skills</h1>
+            <div class="row">
+                <div class="col__2">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fugiat quibusdam libero commodi facere cum nulla quo. Non perferendis deleniti voluptate nihil. Possimus accusantium delectus cupiditate quia minus illum, repellat asperiores libero laudantium sint magnam voluptate vero iusto veniam tempore obcaecati quam accusamus deleniti eos dolorum aperiam perferendis sapiente aliquid! <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur error perferendis minus? Blanditiis voluptates quam soluta? Soluta dolore nesciunt reprehenderit officia ratione repellendus rerum officiis deleniti qui, accusantium consequuntur ipsum! </p>
+                </div>
+                <div class="col__2" id="col-02">
+
+                    <div class="line">
+                        <div class="info">
+                            <span>HTMl</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="bars html">
+
+                        </div>
+                    </div>
+
+                    <div class="line">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="bars css">
+
+                        </div>
+                    </div>
+
+                    <div class="line">
+                        <div class="info">
+                            <span>JAVASCRIPT</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="bars java">
+
+                        </div>
+                    </div>
+
+                    <div class="line">
+                        <div class="info">
+                            <span>BOOTSTRAP</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="bars bootstrap">
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- portfolio section start -->
+
+        <section id="port" class="uni-padding">
+
+            <h1>Portfolios</h1>
+
+            <div class="main">
+
+                <div><img src="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/2884867/pexels-photo-2884867.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+
+                <div><img src="https://images.pexels.com/photos/775907/pexels-photo-775907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/9576999/pexels-photo-9576999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+
+                <div><img src="https://images.pexels.com/photos/1888883/pexels-photo-1888883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/7319326/pexels-photo-7319326.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+                
+                <div>
+                    <img src="https://images.pexels.com/photos/279844/pexels-photo-279844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/7056673/pexels-photo-7056673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+
+                <div><img src="https://images.pexels.com/photos/5053740/pexels-photo-5053740.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/3825179/pexels-photo-3825179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+
+                <div><img src="https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+
+                <div class="horizontal">
+                    <img src="https://images.pexels.com/photos/2004390/pexels-photo-2004390.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+            </div>
+        </section><!---port section end-->
+
+
+        <section id="repu" class="uni-padding">
+            <div class="row">
+                <div class="col-4">
+                    <h1>78</h1>
+                    <p>Clients</p>
+                </div>
+                <div class="col-4">
+                    <h1>158</h1>
+                    <p>Projects</p>
+                </div>
+                <div class="col-4">
+                    <h1>78</h1>
+                    <p>Clients</p>
+                </div>
+                <div class="col-4">
+                    <h1>2.5</h1>
+                    <p>Year Experience</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- testimonial section start -->
+
+        <section id="testimonial" class="uni-padding">
+            <h1 class="for-h">Testimonial</h1>
+
+
+
+            <div class="container">
+
+                <div class="indicator">
+                    <span class="bttn active"></span>
+                    <span class="bttn"></span>
+                    <span class="bttn"></span>
+                    <span class="bttn"></span>
+                </div>
+            <div class="test">
+            <div class="flexx" id="slide">
+            <div class="messeage">
+                <span><i class="fas fa-quote-left" id="qu"></i></span>
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum! Voluptatum temporibus odio sit libero vero cupiditate, dolorem fuga commodi ut, neque quia hic, dolore laboriosam voluptates excepturi accusamus numquam.</blockquote>
+                <img src="images/girl.jpg" alt="">
+                <h3>Mariam</h3>
+                <p>CEO of google</p>
+            </div>
+
+            
+            <div class="messeage">
+                <span><i class="fas fa-quote-left" id="qu"></i></span>
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum! Voluptatum temporibus odio sit libero vero cupiditate, dolorem fuga commodi ut, neque quia hic, dolore laboriosam voluptates excepturi accusamus numquam.</blockquote>
+                <img src="images/girl.jpg" alt="">
+                <h3>Mariam</h3>
+                <p>CEO of google</p>
+            </div>
+
+             
+            <div class="messeage">
+                <span><i class="fas fa-quote-left" id="qu"></i></span>
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum! Voluptatum temporibus odio sit libero vero cupiditate, dolorem fuga commodi ut, neque quia hic, dolore laboriosam voluptates excepturi accusamus numquam.</blockquote>
+                <img src="images/girl.jpg" alt="">
+                <h3>Mariam</h3>
+                <p>CEO of google</p>
+            </div>
+
+            
+            <div class="messeage">
+                <span><i class="fas fa-quote-left" id="qu"></i></span>
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum! Voluptatum temporibus odio sit libero vero cupiditate, dolorem fuga commodi ut, neque quia hic, dolore laboriosam voluptates excepturi accusamus numquam.</blockquote>
+                <img src="images/girl.jpg" alt="">
+                <h3>Mariam</h3>
+                <p>CEO of google</p>
+            </div>
+            </div>
+            </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+
+        <!-- address section start -->
+
+        <section id="address" class="uni-padding">
+            <h1 class="for-h">Get In Touch</h1>
+            <div class="row">
+                <div class="col__4">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h2>Address</h2>
+                    <p>36/5 Banglabazar</p>
+                    <p>Dhaka,Bangladesh</p>
+                </div>
+
+                <div class="col__4">
+                    <i class="fas fa-phone-alt"></i>
+                    <h2>Phone</h2>
+                    <p>+9901834744</p>
+                    <p>0002244</p>
+                </div>
+
+                <div class="col__4">
+                    <i class="fas fa-envelope-open"></i>
+                    <h2>Email</h2>
+                    <p>arifkhan@gmai.com</p>
+                    <p>rafsankhan@gmail.com</p>
+                </div>
+
+                <div class="col__4">
+                    <i class="fab fa-facebook"></i>
+                    <h2>Facebook Chat</h2>
+                    <p>@freelancher21</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- another section -->
+        <section id="con" class="uni-padding">
+            <div class="row">
+                <div class="col-30">
+                    <h2>Lets Connect</h2>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i> &nbsp; Facebook</a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i> &nbsp; Instagram</a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i> &nbsp; Twitter</a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i> &nbsp; Pinterest</a></li>
+                        <li><a href=""><i class="fab fa-snapchat"></i> &nbsp; Snapchat</a></li>
+                    </ul>
+                </div>
+                <div class="col-70">
+                    <h2>Send a Message</h2>
+                    <form action="">
+                        <label for="name">Name</label><br><input type="text" name="" id="name"><br>
+                        <label for="mail">Email</label><br><input type="email" name="" id="mail"><br>
+                        <label for="sub">Subject</label><br><input type="text" name="" id="sub"><br>
+                        <label for="mess">Message</label><br><textarea name="" id="" cols="30" rows="10"></textarea>
+                        <a href="" class="btn1">Send A Message</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="uni-padding">
+            <h2>All right Reserved By &copy; 2020 CodingX</h2>
+            <div class="toop">
+                <span><a href="index.html">&#8593;</a></span>
+            </div>
+        </footer>
+    </div><!---wrapper div end-->
+
+    <script>
+        function openMenu(){
+            document.getElementById('menu').style.left = "0px";
+        }
+        function closeMenu(){
+            document.getElementById("menu").style.left = "-250px";
+        }
+
+        var btn = document.getElementsByClassName("bttn");
+        var slide = document.getElementById("slide");
+
+        btn[0].onclick = function(){
+            slide.style.transform = " translateX(0px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        btn[1].onclick = function(){
+            slide.style.transform = "translateX(-800px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        btn[2].onclick = function(){
+            slide.style.transform = "translateX(-1600px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        btn[3].onclick = function(){
+            slide.style.transform = "translateX(-2400px)";
+            for(i=0;i<4;i++){
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+
+
+    </script>
+</body>
+</html>

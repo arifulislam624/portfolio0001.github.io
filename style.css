@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light:#ffffff;
+    --dark:#020312;
+    --primary:#f26c4f;
+    --fonth:calc(1em + 1vw);
+    --fontp:calc(.5rem + .5vw);
+}
+.uni-padding{
+    padding: 0 15%;
+}
+a{
+    text-decoration: none;
+}
+
+.for-h{
+    font-size: calc(2em + 1vw);
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--light);
+}
+.for-p{
+    font-size: calc(.5em + .5vw);
+    font-weight: 200;
+    line-height: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header .logo a h2{
+    color: var(--light);
+    background: var(--primary);
+    padding: 10px 15px;
+    margin-bottom: -60px;
+    
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+header nav ul li::after{
+    content: '';
+    background-color: orange;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: block;
+    transition: all .5s ease;
+
+}
+header nav ul li:hover::after{
+    width: 100%;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    color: var(--dark);
+    font-size: var(--fontp);
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+header nav ul li a:hover{
+    opacity: 1;
+}
+
+/* header design end */
+
+#hero{
+    padding-top: 250px;
+    padding-bottom: ;
+    background: linear-gradient(140deg, rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100vh;
+}
+#hero .content .icon .fab{
+    color: var(--light);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+ .btn{
+    font-size: 35px;
+    display: inline-block;
+    border: 3px solid var(--light);
+    padding: 15px 50px;
+    margin-top: 40px;
+    color: var(--light);
+    font-weight: bolder;
+    position: relative;
+}
+ .btn::after{
+    content: '';
+    background-color: var(--light);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+#tab{
+    color: white;
+    font-size: 30px;
+    background-color: var(--primary);
+    padding: 8px 18px;
+    position: absolute;
+    left: 230px;
+    bottom: 50px;
+}
+/*contet style end*/
+
+#service{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--dark);
+    color: white;
+}
+#service h1{
+    text-align: center;
+    padding-bottom: 80px;
+}
+#service .parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#service .parent .box{
+    padding: 20px;
+}
+#service .parent .box .fas{
+    font-size: 40px;
+    padding: 20px 0;
+    color: var(--primary);
+}
+#service .parent .box h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#service .parent .box p{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/*service section end*/
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--dark);
+}
+#about h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col2{
+    flex-basis: 50%;
+}
+.col2 img{
+    width: 100%;
+    object-fit: cover;
+}
+#col2{
+    padding: 20px;
+    flex-basis: 40%;
+}
+.col2 #pera{
+    color: var(--light);
+    font-weight: 300;
+    line-height: 25px;
+    margin-top:50px;
+    margin-bottom: 50px;
+
+}
+
+.info{
+    display: flex;
+    color: white;
+}
+.info p{
+    color: var(--light);
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+}
+.info .one p{
+    color: var(--primary);
+}
+.info .two{
+    text-align: right;
+}
+.info .three p{
+    color: var(--primary);
+}
+.info .four{
+    text-align: right;
+}
+.btn1{
+    font-size: 15px;
+    display: inline-block;
+    background-color: var(--primary);
+    padding: 13px 25px;
+    margin-top: 40px;
+    color: var(--light);
+    font-weight: light;
+}
+.btn2{
+    font-size: 15px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 8px 28px;
+    margin-top: 40px;
+    color: var(--light);
+    font-weight: light;
+}
+.btn2 #fa{
+    font-size: 15px;
+}
+#work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--dark);
+}
+#work .box__1{
+    background-color: var(--light);
+    padding: 30px 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative
+}
+#work .box__1 h2{
+    font-size: 25px;
+    color: var(--dark);
+    font-weight: 300;
+    padding: 20px;
+}
+#btnn{
+    position: absolute;
+    bottom: -20px;
+    left: 340px;
+}
+
+
+
+/*another style */
+
+#skill{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#skill h1{
+    color: var(--dark);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.col__2{
+    flex-basis: 45%;
+    background-color: #fff;
+    margin-left: 4px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+.col__2 h1{
+    font-size: 30px;
+    font-weight: 30px;
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+.col__2 p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 100;
+}
+#col-02{
+    color: var(--dark);
+}
+#col-02 .line{
+    margin-bottom:45px;
+}
+#col-02 .line .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#col-02 .line .info span{
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 17px;
+}
+.line .bars{
+    background: lightgray;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+#col-02 .bars::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background: crimson;
+}
+#col-02 .html::before{
+    width: 90%;
+}
+
+#col-02 .css::before{
+    width: 80%;
+}
+
+#col-02 .java::before{
+    width: 50%;
+}
+
+#col-02 .bootstrap::before{
+    width: 95%;
+}
+
+
+/*my portfolio section*/
+#port{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--dark);
+}
+#port h1{
+    font-size: 30px;
+    font-weight: 40;
+    text-align: center;
+}
+ .main{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 8px;
+}
+ .main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.horizontal{
+    grid-row: auto / span 2;
+}
+
+/*repu div estart*/
+#repu{
+    background:linear-gradient(135deg, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('images/bannerpng.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#repu .col-4{
+    flex-basis: 23%;
+}
+#repu .col-4 h1{
+    font-size: 55px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: var(--primary);
+    text-align: center;
+}
+#repu .col-4 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light);
+    text-align: center;
+}
+
+
+
+#testimonial{
+    background-color: var(--dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+#testimonial h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#testimonial .messeage{
+    text-align: center;
+    margin-top: 50px;
+    color: var(--light);
+    width: 100%;
+    margin: 0 auto;
+
+}
+#testimonial .messeage span #qu{
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 30px;
+    padding: 10px;
+}
+#testimonial blockquote{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    margin: 30px 0;
+}
+#testimonial img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#testimonial h3{
+    margin: 10px;
+    font-weight: 200;
+
+}
+
+.flexx{
+    display: flex;
+    width: 3200px;
+    transition: all .5s ease;
+}
+.indicator{
+    position: absolute;
+    left: 46%;
+    transform: translateX(-50%);
+    bottom: 55px;
+}
+.bttn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.active{
+    width: 45px;
+    color: white;
+}
+
+.test{
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+#address{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)); 
+}
+#address h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col__4{
+    flex-basis: 24%;
+    padding: 20px;
+}
+.col__4 i{
+    color: var(--primary);
+    font-size: 40px;
+    margin: 20px 0;
+}
+.col__4 h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    color: var(--light);
+}
+.col__4 p{
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--light);
+    margin: 10px 0;
+}
+
+/* address info style  end*/
+
+#con{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: #131421;
+}
+
+#con .col-30{
+    flex-basis: 40%;
+}
+#con .col-30 h2{
+    color: var(--light);
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+#con .col-30 ul li{
+    margin: 30px 0;
+}
+#con .col-30 ul li a{
+    color: var(--light);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#con .col-30 ul li a i{
+    font-size: 30px;
+    border: 1px solid var(--light);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+#con .col-30 p{
+    margin-left: 100px;
+}
+#con .col-70{
+    flex-basis: 60%;
+}
+
+#con .col-70 h2{
+    color: var(--light);
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+#con .col-70 label{
+    color: var(--light);
+    margin: 10px 0;
+}
+#con .col-70 .boxx{
+    display: flex;
+    justify-content: space-between;
+}
+#con .col-70 input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #1f202d;
+    margin: 10px 0;
+    display: inline-block;
+}
+#con .col-70 input:focus{
+    border: 1px solid lightgray;
+}
+#con .col-70 input[id="sub"]{
+    
+    width: 100%;
+}
+#con .col-70 textarea{
+    resize: none;
+    height: 200px;
+    width: 100%;
+    background-color: #1f202d;
+    border: none;
+    outline: none;
+}
+
+footer{
+    background-color: var(--light);
+    position: relative;
+
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .toop span{
+    color: white;
+    font-size: 30px;
+    background-color: var(--primary);
+    padding: 8px 18px;
+    position: absolute;
+    right: 200px;
+    bottom: 40px;
+}
+.icon{
+    display: none;
+}
+
+/* =======media query for tab======= */
+
+@media only screen and (max-width:770px){
+    .uni-padding{
+        padding: 0 10%;
+    }
+    header nav ul li a {
+        font-size: 13px;
+    }
+    #hero{
+        text-align: center;
+        padding-top: 200px;
+    }
+    #tab{
+        left: 60px;
+    }
+
+    #hide{
+        display: none;
+    }
+    .col2{
+        margin: 0 auto;
+    }
+    #btnn{
+        left: 151px;
+    }
+    .row{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col__2{
+        flex-basis: 100%;
+    }
+    footer .toop span{
+        right: 82px;
+    }
+
+}
+
+/* =======mediaqueries for mobile============ */
+@media only screen and (max-width:480px){
+
+.uni-padding{
+    padding-top: 0 5%;
+}
+header nav ul li{
+    display: block;
+    margin-top: 40px;
+}
+header nav ul li a{
+    color: var(--light);
+    opacity: 1;
+}
+.row{
+    justify-content: space-between;
+}
+header nav{
+    position: absolute;
+    background:linear-gradient(145deg, rgba(0,0,0,1), rgba(0,0,0,0.8));
+    width: 250px;
+    top: 0;
+    text-align: left;
+    z-index: 2;
+    height: 100vh;
+}
+
+header nav{
+    left: -250px;
+    transition: all 1s ease;
+}
+.icon{
+    display: block;
+    color: var(--primary);
+    font-size: 34px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+ .box{
+    text-align: center;
+}
+.col2{
+    text-align: center;
+}
+#btnn{
+    left: 76px;
+}
+#repu .col-4{
+    flex-basis: 40%;
+    text-align: center;
+}
+#con .col-30{
+    flex-basis: 100%;
+    text-align: center;
+}
+#con .col-70{
+    flex-basis: 100%;
+}
+footer .toop span{
+    right: 31px;
+    bottom: 120px;
+}
+}
